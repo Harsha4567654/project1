@@ -22,7 +22,7 @@ $loggedInUsername = $_SESSION['username'] ?? '';
 
 // Check if the session username is set
 if (!$loggedInUsername) {
-    die("No username in session. Please log in.");
+    die("No username found. Please log in again.");
 }
 
 // Query to retrieve user details based on the username
